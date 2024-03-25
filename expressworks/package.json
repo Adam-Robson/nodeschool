@@ -1,0 +1,16 @@
+{
+  "name": "expressworks",
+  "version": "1.0.0",
+  "description": "expressworks workshop from nodeschool.io",
+  "main": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "pug": "latest",
+    "stylus": "latest"
+  }
+}
