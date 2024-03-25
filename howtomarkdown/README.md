@@ -1,7 +1,7 @@
-# expressworks
+# how to markdown
 
 ## Detail
 
 For the full text of the exercises in this workshop, as well as instructions
 on how to access locally, visit [nodeschool](https://nodeschool.io/) or
-[the GitHub repo](https://github.com/azat-co/expressworks)
+[the GitHub repo](https://github.com/workshopper/how-to-markdown)
