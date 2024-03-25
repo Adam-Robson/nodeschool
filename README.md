@@ -15,51 +15,51 @@ These are a simple & elegant, effective format. I am grateful for them.
 
 ## List
 
-[x] async-you
-[x] bacon-love
-[ ] browserify-adventure
-[ ] bug-clinic
-[ ] bytewiser
-[ ] count-to-6
-[ ] currying-workshopper
-[ ] elementary-electron
-[x] es-next-generation
-[x] expressworks
-[ ] functional-javascript-workshop
-[ ] git-it
-[ ] goingnative
-[x] howtomarkdown
-[ ] how-to-npm
-[ ] innersourceadventure
-[ ] introtowebgl
-[x] javascripting
-[x] js-best-practices
-[ ] kick-off-koa
-[ ] lololodash
-[ ] learnyoucouchdb
-[x] learnyoumongo
-[x] learnyouhtml
-[ ] learnyoureact
-[x] learnyounode
-[ ] learnyoubash
-[ ] learnuv
-[ ] learn-generators
-[ ] learn-sass
-[ ] less-is-more
-[ ] levelmeup
-[ ] nodebot-workshop
-[ ] node-debug-school (Post-mortem-Debugging)
-[ ] pattern-lab-workshop
-[ ] perfschool
-[ ] planetproto
-[x] promise-it-wont-hurt
-[ ] regex-adventure
-[ ] scope-chains-closures
-[ ] seneca-in-practice
-[ ] shader-school
-[x] stream-adventure
-[ ] thinking-in-react
-[ ] torrential
-[ ] tower-of-babel
-[ ] web-audio-school
-[ ] webgl-workshop
+- [x] async-you
+- [x] bacon-love
+- [ ] browserify-adventure
+- [ ] bug-clinic
+- [ ] bytewiser
+- [ ] count-to-6
+- [ ] currying-workshopper
+- [ ] elementary-electron
+- [x] es-next-generation
+- [x] expressworks
+- [ ] functional-javascript-workshop
+- [ ] git-it
+- [ ] goingnative
+- [x] howtomarkdown
+- [ ] how-to-npm
+- [ ] innersourceadventure
+- [ ] introtowebgl
+- [x] javascripting
+- [x] js-best-practices
+- [ ] kick-off-koa
+- [ ] lololodash
+- [ ] learnyoucouchdb
+- [x] learnyoumongo
+- [x] learnyouhtml
+- [ ] learnyoureact
+- [x] learnyounode
+- [ ] learnyoubash
+- [ ] learnuv
+- [ ] learn-generators
+- [ ] learn-sass
+- [ ] less-is-more
+- [ ] levelmeup
+- [ ] nodebot-workshop
+- [ ] node-debug-school (Post-mortem-Debugging)
+- [ ] pattern-lab-workshop
+- [ ] perfschool
+- [ ] planetproto
+- [x] promise-it-wont-hurt
+- [ ] regex-adventure
+- [ ] scope-chains-closures
+- [ ] seneca-in-practice
+- [ ] shader-school
+- [x] stream-adventure
+- [ ] thinking-in-react
+- [ ] torrential
+- [ ] tower-of-babel
+- [ ] web-audio-school
+- [ ] webgl-workshop
