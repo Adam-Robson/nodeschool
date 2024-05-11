@@ -12,15 +12,7 @@ const server1 = http.createServer((req, res) => {
   fs.createReadStream(filePath).pipe(res);
 });
 
-const server2 = http.createServer((req, res) => {
-  const readStream = fs.createReadStream(filePath);
-  
-  readStream.pipe(res);
-});
-
-server.listen(port, () => {
-  console.log(`HTTP server is listening on port ${port}`);
-});
+server1.listen(port, () => console.log(`HTTP server is listening on port ${port}`));
 
   // Official Solution:
 
