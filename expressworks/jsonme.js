@@ -1,11 +1,17 @@
 const express = require('express');
 const fs = require('fs');
+const rateLimit = require('express-rate-limit');
 
 const app = express();
 const port = process.argv[2]; // Port passed as the first command-line argument
 const filename = process.argv[3];
 
-app.get('/books', (req, res) => {
+const booksLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per windowMs on /books
+});
+
+app.get('/books', booksLimiter, (req, res) => {
   fs.readFile(filename, 'utf8', (err, data) => {
     if (err) {
       res.status(500).json({ error: 'Error reading the file' });
