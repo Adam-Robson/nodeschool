@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
+const escape = require('escape-html');
 
 const app = express();
 
@@ -11,7 +12,7 @@ app.use(bodyParser.urlencoded({ extend: false }));
 app.post('/form', (req, res) => {
   const inputString = req.body.str;
   const returnString = inputString.split('').reverse().join('');
-  res.send(returnString);
+  res.send(escape(returnString));
 });
 
 app.listen(port, () => {

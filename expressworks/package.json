@@ -11,6 +11,7 @@
     "body-parser": "latest",
     "express": "latest",
     "pug": "latest",
-    "stylus": "latest"
+    "stylus": "latest",
+    "escape-html": "^1.0.3"
   }
 }
